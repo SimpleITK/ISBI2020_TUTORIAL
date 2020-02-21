@@ -1,0 +1,19 @@
+name: sitkpyISBI20
+
+# Use the dev label because we will use an RC and not a
+# regular release (2.0.0).
+channels:
+  - simpleitk/label/dev
+  - conda-forge
+  
+dependencies:
+  - python=3.7
+  - jupyter
+  - matplotlib
+  - ipywidgets
+  - itkwidgets
+  - numpy
+  - scipy
+  - pandas
+  - SimpleITK>1.2.4
+    
