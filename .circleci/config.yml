@@ -34,7 +34,7 @@ jobs:
           command: |
             sudo apt-get update; sudo apt-get install enchant
             sudo pip install virtualenv
-            virtualenv ~/sitkpy --no-site-packages
+            virtualenv ~/sitkpy
             ~/sitkpy/bin/pip install -r tests/requirements_testing.txt --pre --find-links https://github.com/SimpleITK/SimpleITK/releases/tag/latest
             ~/sitkpy/bin/jupyter nbextension enable --py --sys-prefix widgetsnbextension
 
