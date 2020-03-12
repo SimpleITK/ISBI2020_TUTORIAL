@@ -3,6 +3,7 @@ name: sitkpyISBI20
 # Use the dev label because we will use an RC and not a
 # regular release (2.0.0).
 channels:
+  - defaults
   - simpleitk/label/dev
   - conda-forge
   
